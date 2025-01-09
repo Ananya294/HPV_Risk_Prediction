@@ -1,4 +1,3 @@
-// ChatInput.jsx
 import React, { useState } from 'react';
 
 const ChatInput = ({ onSend, disabled }) => {
@@ -20,7 +19,7 @@ const ChatInput = ({ onSend, disabled }) => {
         onChange={(e) => setInput(e.target.value)}
         disabled={disabled}
         className="flex-1 p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-        placeholder="Type your message..."
+        placeholder="Feel Free To Share Your Concerns..."
       />
       <button 
         type="submit" 
